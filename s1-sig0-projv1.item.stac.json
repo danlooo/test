@@ -1,0 +1,212 @@
+{
+    "id": "SIG0_20200701T050807_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH",
+    "bbox": [
+        13.149822320324414,
+        49.64394265685644,
+        17.903417260598538,
+        52.63054618393687
+    ],
+    "type": "Feature",
+    "links": [
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M/items/SIG0_20200701T050807_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH"
+        }
+    ],
+    "assets": {
+        "VH": {
+            "href": "https://data.eodc.eu/collections/SENTINEL1_SIG0_20M/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20200701T050807__VH_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "VH Polarization",
+            "eo:bands": [
+                {
+                    "name": "VH",
+                    "description": "Sigma Nought in VH polarization"
+                }
+            ],
+            "alternate": {
+                "local": {
+                    "href": "/eodc/products/eodc.eu/S1_CSAR_IWGRDH/SIG0/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20200701T050807__VH_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif",
+                    "type": "image/tiff; application=geotiff",
+                    "title": "Local file path of the asset."
+                }
+            },
+            "description": "The Sigma Nought backscatter in VH polarization",
+            "raster:bands": [
+                {
+                    "scale": 10,
+                    "nodata": -9999,
+                    "offset": 0,
+                    "data_type": "int16",
+                    "spatial_resolution": 20
+                }
+            ]
+        },
+        "VV": {
+            "href": "https://data.eodc.eu/collections/SENTINEL1_SIG0_20M/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20200701T050807__VV_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "VV Polarization",
+            "eo:bands": [
+                {
+                    "name": "VV",
+                    "description": "Sigma Nought in VV polarization"
+                }
+            ],
+            "alternate": {
+                "local": {
+                    "href": "/eodc/products/eodc.eu/S1_CSAR_IWGRDH/SIG0/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20200701T050807__VV_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif",
+                    "type": "image/tiff; application=geotiff",
+                    "title": "Local file path of the asset."
+                }
+            },
+            "description": "The Sigma Nought backscatter in VV polarization",
+            "raster:bands": [
+                {
+                    "scale": 10,
+                    "nodata": -9999,
+                    "offset": 0,
+                    "data_type": "int16",
+                    "spatial_resolution": 20
+                }
+            ]
+        },
+        "thumbnail": {
+            "href": "https://data.eodc.eu/collections/SENTINEL1_SIG0_20M/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20200701T050807__VV_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif/thumbnail",
+            "type": "image/png",
+            "roles": [
+                "thumbnail"
+            ],
+            "title": "Preview Image",
+            "description": "thumbnail image of asset VV"
+        }
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    13.764210082,
+                    49.643942657
+                ],
+                [
+                    13.14982232,
+                    52.306556519
+                ],
+                [
+                    17.53297656,
+                    52.630546184
+                ],
+                [
+                    17.903417261,
+                    49.946137426
+                ],
+                [
+                    13.764210082,
+                    49.643942657
+                ]
+            ]
+        ]
+    },
+    "collection": "SENTINEL1_SIG0_20M",
+    "properties": {
+        "gsd": 20,
+        "parent": "S1B_IW_GRDH_1SDV_20200701T050807_20200701T050832_022273_02A458_BE83.zip",
+        "checksum": "a7744b4c4e0495285581ceaf968bbd0b",
+        "datetime": "2020-07-01T05:08:07Z",
+        "blocksize": {
+            "x": 15000,
+            "y": 5
+        },
+        "proj:bbox": [
+            5100000,
+            1800000,
+            5400000,
+            2100000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+            15000,
+            15000
+        ],
+        "Equi7_TileID": "EU020M_E051N018T3",
+        "constellation": [
+            "sentinel-1"
+        ],
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        5100000.0,
+                        1800000.0
+                    ],
+                    [
+                        5100000.0,
+                        2100000.0
+                    ],
+                    [
+                        5400000.0,
+                        2100000.0
+                    ],
+                    [
+                        5400000.0,
+                        1800000.0
+                    ],
+                    [
+                        5100000.0,
+                        1800000.0
+                    ]
+                ]
+            ]
+        },
+        "proj:transform": [
+            20,
+            0,
+            5100000,
+            0,
+            -20,
+            2100000
+        ],
+        "sat:orbit_state": "descending",
+        "sar:product_type": "GRD",
+        "sar:polarizations": [
+            "VV",
+            "VH"
+        ],
+        "sar:frequency_band": "C",
+        "sat:relative_orbit": 22,
+        "sar:instrument_mode": "IW",
+        "border_noise_removed": true,
+        "sar:center_frequency": 5.405,
+        "sar:resolution_range": 40,
+        "thermal_noise_removed": true,
+        "sar:resolution_azimuth": 40,
+        "sar:pixel_spacing_range": 20,
+        "sar:observation_direction": "right",
+        "sar:pixel_spacing_azimuth": 20,
+        "sat:platform_international_designator": "2014-016A"
+    },
+    "stac_version": "1.0.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+    ]
+}
