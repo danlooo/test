@@ -145,9 +145,7 @@
             15000
         ],
         "Equi7_TileID": "EU020M_E051N018T3",
-        "constellation": [
-            "sentinel-1"
-        ],
+        "constellation": "sentinel-1",
         "proj:geometry": {
             "type": "Polygon",
             "coordinates": [
